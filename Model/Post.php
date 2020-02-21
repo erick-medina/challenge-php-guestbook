@@ -25,7 +25,14 @@ class Post
     }
 
     public function __destruct() {
-        echo "First name is {$this->first_name}";
+        $soy_array = [$this->first_name,
+            $this->last_name,
+            $this->subject,
+            $this->email,
+            $this->comment,
+            $this->date];
+        echo "Second name is {$this->last_name}";
+        var_dump($soy_array);
     }
 
 

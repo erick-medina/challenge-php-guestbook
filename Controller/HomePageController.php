@@ -17,13 +17,15 @@ class HomePageController
                 $subject = $_POST['subject'];
                 $email = $_POST['email'];
                 $comment = $_POST['comment'];
-                $date = date('m/d/Y h:i:s a', time());
+                $date = date('m/d/Y h:i:s a', time()); // to get exact date when submitting the form
 
                 $post_obj = new Post ($first_name, $last_name, $subject, $email, $comment, $date);
                 var_dump($post_obj);
 
                 $guestbook_obj = new Guestbook();
                 var_dump($guestbook_obj);
+
+
 
         }
 
