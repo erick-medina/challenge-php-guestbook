@@ -4,4 +4,5 @@
 <p>- Converting complex constructs (array/objects) to string representation.</p>
 <p>- Deliver a project under a strict deadline</p>
 
-<p><strong>Mission:</strong> Any visitor on the page can leave a message on the page that are then saved and showed (last message on top) for everybody who visits the page.</p>
+<h3> Mission </h3>
+<p>Any visitor on the page can leave a message on the page that are then saved and showed (last message on top) for everybody who visits the page.</p>
