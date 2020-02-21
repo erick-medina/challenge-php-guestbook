@@ -12,7 +12,9 @@ class Guestbook
                 'last name' => $_POST['lastName'],
                 'subject' => $_POST['subject'],
                 'email' => $_POST['email'],
-                'comment' => $_POST['comment']
+                'comment' => $_POST['comment'],
+                'date' => date('m/d/Y h:i:s a', time())
+
             );
             $json_string = json_encode($info_array); // to convert object into json
             file_put_contents($users_file, $json_string); // to write data to a file

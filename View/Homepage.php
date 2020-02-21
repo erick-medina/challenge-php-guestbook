@@ -37,7 +37,6 @@
         <label for="exampleFormControlTextarea1">Comment</label>
         <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
-    <input type="date" value="<?php echo date('Y-m-d');?>">
     <button type="submit" name="submit" class="btn btn-primary">Submit comment</button>
 </form>
 
