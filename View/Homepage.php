@@ -13,6 +13,35 @@
 
 <body>
 
+<form action="" method="post">
+    <h2>Guestbook PHP</h2>
+    <div class="form-group">
+        <div class="form-group">
+            <label for="formGroupExampleInput">Subject</label>
+            <input type="text" name="subject" class="form-control" id="formGroupExampleInput" placeholder="">
+        </div>
+        <div class="form-row">
+            <div class="col">
+                <label for="firstName">First name</label>
+                <input type="text" name="firstName" class="form-control" placeholder="">
+            </div>
+            <div class="col">
+                <label for="lastName">Last name</label>
+                <input type="text" name="lastName" class="form-control" placeholder="">
+            </div>
+        </div>
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Comment</label>
+        <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" name="submit" class="btn btn-primary">Submit comment</button>
+</form>
+
+
+
 <style>
 
 </style>
